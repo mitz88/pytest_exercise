@@ -1,0 +1,25 @@
+
+
+
+
+
+
+
+git push not working ?
+	1. create a remote git connection to github.
+		1.1 for this I have to create a new repository in github first.
+		1.2 secondly in my local machine i have to add the url of the created repository 
+			along with an alias name that will be used in my loacl machine 
+			when i do git push
+		1.3 now git push command can be given like this:
+			GIT PUSH <ALIAS NAME> 
+			1.3.1 this above command will push all the files which are staged in commit
+		1.4 now git will ask for username and password
+			1.4.1 username will be same as the username in the github/git user
+				like mitz88
+			1.4.2 but when git will ask for password i cannot give the github account password.
+				Since 2021 , i guss, this password authentication has been removed.
+			1.4.3 Instead of the password authentication git now accepts tokens for authentication.
+				I can generate a token from github account settings. I have to give some additional 
+				repository access permissions for push to work.
+			1.4.4 now after all these changes github will accept push from local system.
