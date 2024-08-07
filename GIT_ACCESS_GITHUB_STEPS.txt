@@ -22,4 +22,4 @@ git push not working ?
 			1.4.3 Instead of the password authentication git now accepts tokens for authentication.
 				I can generate a token from github account settings. I have to give some additional 
 				repository access permissions for push to work.
-			1.4.4 now after all these changes github will accept push from local system.
+			1.4.4 now after all  these changes github will accept push from local system.
