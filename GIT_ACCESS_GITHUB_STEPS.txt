@@ -19,7 +19,8 @@ git push not working ?
 				like mitz88
 			1.4.2 but when git will ask for password i cannot give the github account password.
 				Since 2021 , i guss, this password authentication has been removed.
-			1.4.3 Instead of the password authentication git now accepts tokens for authentication.
+			1.4.3 github_pat_11AIL4XJI0ZA4v3MOVbIA_5XRixyqZd3Zx7BoAwj251IDW5VIDXEHL3pqWz6k4cJ0Q2JPPF4DMxLn8dkS
+Instead of the password authentication git now accepts tokens for authentication.
 				I can generate a token from github account settings. I have to give some additional 
 				repository access permissions for push to work.
 			1.4.4 now after all  these changes github will accept push from local system.
